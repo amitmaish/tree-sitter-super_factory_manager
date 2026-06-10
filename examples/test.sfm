@@ -1,0 +1,6 @@
+name "test"
+
+every 20 ticks do
+	INPUT FROM a
+	OUTPUT to b
+end

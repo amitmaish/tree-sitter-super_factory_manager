@@ -1,0 +1,1429 @@
+[
+  {
+    "type": "block",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "statement",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "boolexpr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "AND",
+          "named": true
+        },
+        {
+          "type": "EXCEPT",
+          "named": true
+        },
+        {
+          "type": "FALSE",
+          "named": true
+        },
+        {
+          "type": "HAS",
+          "named": true
+        },
+        {
+          "type": "LPAREN",
+          "named": true
+        },
+        {
+          "type": "NOT",
+          "named": true
+        },
+        {
+          "type": "OR",
+          "named": true
+        },
+        {
+          "type": "REDSTONE",
+          "named": true
+        },
+        {
+          "type": "RPAREN",
+          "named": true
+        },
+        {
+          "type": "TRUE",
+          "named": true
+        },
+        {
+          "type": "boolexpr",
+          "named": true
+        },
+        {
+          "type": "comparisonOp",
+          "named": true
+        },
+        {
+          "type": "labelAccess",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "resourceIdDisjunction",
+          "named": true
+        },
+        {
+          "type": "resourceIdList",
+          "named": true
+        },
+        {
+          "type": "setOp",
+          "named": true
+        },
+        {
+          "type": "with",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "comparisonOp",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "EQ",
+          "named": true
+        },
+        {
+          "type": "EQ_SYMBOL",
+          "named": true
+        },
+        {
+          "type": "GE",
+          "named": true
+        },
+        {
+          "type": "GE_SYMBOL",
+          "named": true
+        },
+        {
+          "type": "GT",
+          "named": true
+        },
+        {
+          "type": "GT_SYMBOL",
+          "named": true
+        },
+        {
+          "type": "LE",
+          "named": true
+        },
+        {
+          "type": "LE_SYMBOL",
+          "named": true
+        },
+        {
+          "type": "LT",
+          "named": true
+        },
+        {
+          "type": "LT_SYMBOL",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "emptyslots",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "EMPTY",
+          "named": true
+        },
+        {
+          "type": "IN",
+          "named": true
+        },
+        {
+          "type": "SLOT",
+          "named": true
+        },
+        {
+          "type": "SLOTS",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "forgetStatement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "COMMA",
+          "named": true
+        },
+        {
+          "type": "FORGET",
+          "named": true
+        },
+        {
+          "type": "label",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "identifier",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "BACK",
+          "named": true
+        },
+        {
+          "type": "BOTTOM",
+          "named": true
+        },
+        {
+          "type": "FRONT",
+          "named": true
+        },
+        {
+          "type": "GLOBAL",
+          "named": true
+        },
+        {
+          "type": "IDENTIFIER",
+          "named": true
+        },
+        {
+          "type": "LEFT",
+          "named": true
+        },
+        {
+          "type": "REDSTONE",
+          "named": true
+        },
+        {
+          "type": "RIGHT",
+          "named": true
+        },
+        {
+          "type": "SECOND",
+          "named": true
+        },
+        {
+          "type": "SECONDS",
+          "named": true
+        },
+        {
+          "type": "TOP",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "ifStatement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "BLOCK",
+          "named": true
+        },
+        {
+          "type": "ELSE",
+          "named": true
+        },
+        {
+          "type": "END",
+          "named": true
+        },
+        {
+          "type": "IF",
+          "named": true
+        },
+        {
+          "type": "THEN",
+          "named": true
+        },
+        {
+          "type": "block",
+          "named": true
+        },
+        {
+          "type": "boolexpr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "inputResourceLimits",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "resourceLimitList",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "inputStatement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "EACH",
+          "named": true
+        },
+        {
+          "type": "FROM",
+          "named": true
+        },
+        {
+          "type": "INPUT",
+          "named": true
+        },
+        {
+          "type": "inputResourceLimits",
+          "named": true
+        },
+        {
+          "type": "labelAccess",
+          "named": true
+        },
+        {
+          "type": "resourceExclusion",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "interval",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "GLOBAL",
+          "named": true
+        },
+        {
+          "type": "NUMBER",
+          "named": true
+        },
+        {
+          "type": "NUMBER_WITH_G_SUFFIX",
+          "named": true
+        },
+        {
+          "type": "PLUS",
+          "named": true
+        },
+        {
+          "type": "SECOND",
+          "named": true
+        },
+        {
+          "type": "SECONDS",
+          "named": true
+        },
+        {
+          "type": "TICK",
+          "named": true
+        },
+        {
+          "type": "TICKS",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "label",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "labelAccess",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "COMMA",
+          "named": true
+        },
+        {
+          "type": "label",
+          "named": true
+        },
+        {
+          "type": "roundrobin",
+          "named": true
+        },
+        {
+          "type": "sidequalifier",
+          "named": true
+        },
+        {
+          "type": "slotqualifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "limit",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "quantity",
+          "named": true
+        },
+        {
+          "type": "retention",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "name",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "NAME",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "number",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "NUMBER",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "outputResourceLimits",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "resourceLimitList",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "outputStatement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "EACH",
+          "named": true
+        },
+        {
+          "type": "OUTPUT",
+          "named": true
+        },
+        {
+          "type": "TO",
+          "named": true
+        },
+        {
+          "type": "emptyslots",
+          "named": true
+        },
+        {
+          "type": "labelAccess",
+          "named": true
+        },
+        {
+          "type": "outputResourceLimits",
+          "named": true
+        },
+        {
+          "type": "resourceExclusion",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "program",
+    "named": true,
+    "root": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "name",
+          "named": true
+        },
+        {
+          "type": "trigger",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "quantity",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "EACH",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "range",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "DASH",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "rangeset",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "COMMA",
+          "named": true
+        },
+        {
+          "type": "range",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "resourceExclusion",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "EXCEPT",
+          "named": true
+        },
+        {
+          "type": "resourceIdList",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "resourceId",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "COLON",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "resourceIdDisjunction",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "OR",
+          "named": true
+        },
+        {
+          "type": "resourceId",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "resourceIdList",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "COMMA",
+          "named": true
+        },
+        {
+          "type": "resourceId",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "resourceLimit",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "limit",
+          "named": true
+        },
+        {
+          "type": "resourceIdDisjunction",
+          "named": true
+        },
+        {
+          "type": "with",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "resourceLimitList",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "COMMA",
+          "named": true
+        },
+        {
+          "type": "resourceLimit",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "retention",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "EACH",
+          "named": true
+        },
+        {
+          "type": "RETAIN",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "roundrobin",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "BLOCK",
+          "named": true
+        },
+        {
+          "type": "BY",
+          "named": true
+        },
+        {
+          "type": "LABEL",
+          "named": true
+        },
+        {
+          "type": "ROBIN",
+          "named": true
+        },
+        {
+          "type": "ROUND",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "setOp",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "EACH",
+          "named": true
+        },
+        {
+          "type": "EVERY",
+          "named": true
+        },
+        {
+          "type": "LONE",
+          "named": true
+        },
+        {
+          "type": "ONE",
+          "named": true
+        },
+        {
+          "type": "OVERALL",
+          "named": true
+        },
+        {
+          "type": "SOME",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "side",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "BACK",
+          "named": true
+        },
+        {
+          "type": "BOTTOM",
+          "named": true
+        },
+        {
+          "type": "EAST",
+          "named": true
+        },
+        {
+          "type": "FRONT",
+          "named": true
+        },
+        {
+          "type": "LEFT",
+          "named": true
+        },
+        {
+          "type": "NORTH",
+          "named": true
+        },
+        {
+          "type": "NULL",
+          "named": true
+        },
+        {
+          "type": "RIGHT",
+          "named": true
+        },
+        {
+          "type": "SOUTH",
+          "named": true
+        },
+        {
+          "type": "TOP",
+          "named": true
+        },
+        {
+          "type": "WEST",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "sidequalifier",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "COMMA",
+          "named": true
+        },
+        {
+          "type": "EACH",
+          "named": true
+        },
+        {
+          "type": "SIDE",
+          "named": true
+        },
+        {
+          "type": "side",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "slotqualifier",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "SLOT",
+          "named": true
+        },
+        {
+          "type": "SLOTS",
+          "named": true
+        },
+        {
+          "type": "rangeset",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "statement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "forgetStatement",
+          "named": true
+        },
+        {
+          "type": "ifStatement",
+          "named": true
+        },
+        {
+          "type": "inputStatement",
+          "named": true
+        },
+        {
+          "type": "outputStatement",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "string",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "STRING",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "tagMatcher",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "COLON",
+          "named": true
+        },
+        {
+          "type": "SLASH",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "trigger",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "DO",
+          "named": true
+        },
+        {
+          "type": "END",
+          "named": true
+        },
+        {
+          "type": "EVERY",
+          "named": true
+        },
+        {
+          "type": "PULSE",
+          "named": true
+        },
+        {
+          "type": "REDSTONE",
+          "named": true
+        },
+        {
+          "type": "block",
+          "named": true
+        },
+        {
+          "type": "interval",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "with",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "WITH",
+          "named": true
+        },
+        {
+          "type": "WITHOUT",
+          "named": true
+        },
+        {
+          "type": "withClause",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "withClause",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "AND",
+          "named": true
+        },
+        {
+          "type": "HASHTAG",
+          "named": true
+        },
+        {
+          "type": "LPAREN",
+          "named": true
+        },
+        {
+          "type": "NOT",
+          "named": true
+        },
+        {
+          "type": "OR",
+          "named": true
+        },
+        {
+          "type": "RPAREN",
+          "named": true
+        },
+        {
+          "type": "TAG",
+          "named": true
+        },
+        {
+          "type": "tagMatcher",
+          "named": true
+        },
+        {
+          "type": "withClause",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "AND",
+    "named": true
+  },
+  {
+    "type": "BACK",
+    "named": true
+  },
+  {
+    "type": "BLOCK",
+    "named": true
+  },
+  {
+    "type": "BOTTOM",
+    "named": true
+  },
+  {
+    "type": "BY",
+    "named": true
+  },
+  {
+    "type": "COLON",
+    "named": true
+  },
+  {
+    "type": "COMMA",
+    "named": true
+  },
+  {
+    "type": "DASH",
+    "named": true
+  },
+  {
+    "type": "DO",
+    "named": true
+  },
+  {
+    "type": "EACH",
+    "named": true
+  },
+  {
+    "type": "EAST",
+    "named": true
+  },
+  {
+    "type": "ELSE",
+    "named": true
+  },
+  {
+    "type": "EMPTY",
+    "named": true
+  },
+  {
+    "type": "END",
+    "named": true
+  },
+  {
+    "type": "EQ",
+    "named": true
+  },
+  {
+    "type": "EQ_SYMBOL",
+    "named": true
+  },
+  {
+    "type": "EVERY",
+    "named": true
+  },
+  {
+    "type": "EXCEPT",
+    "named": true
+  },
+  {
+    "type": "FALSE",
+    "named": true
+  },
+  {
+    "type": "FORGET",
+    "named": true
+  },
+  {
+    "type": "FROM",
+    "named": true
+  },
+  {
+    "type": "FRONT",
+    "named": true
+  },
+  {
+    "type": "GE",
+    "named": true
+  },
+  {
+    "type": "GE_SYMBOL",
+    "named": true
+  },
+  {
+    "type": "GLOBAL",
+    "named": true
+  },
+  {
+    "type": "GT",
+    "named": true
+  },
+  {
+    "type": "GT_SYMBOL",
+    "named": true
+  },
+  {
+    "type": "HAS",
+    "named": true
+  },
+  {
+    "type": "HASHTAG",
+    "named": true
+  },
+  {
+    "type": "IDENTIFIER",
+    "named": true
+  },
+  {
+    "type": "IF",
+    "named": true
+  },
+  {
+    "type": "IN",
+    "named": true
+  },
+  {
+    "type": "INPUT",
+    "named": true
+  },
+  {
+    "type": "LABEL",
+    "named": true
+  },
+  {
+    "type": "LE",
+    "named": true
+  },
+  {
+    "type": "LEFT",
+    "named": true
+  },
+  {
+    "type": "LE_SYMBOL",
+    "named": true
+  },
+  {
+    "type": "LINE_COMMENT",
+    "named": true,
+    "extra": true
+  },
+  {
+    "type": "LONE",
+    "named": true
+  },
+  {
+    "type": "LPAREN",
+    "named": true
+  },
+  {
+    "type": "LT",
+    "named": true
+  },
+  {
+    "type": "LT_SYMBOL",
+    "named": true
+  },
+  {
+    "type": "NAME",
+    "named": true
+  },
+  {
+    "type": "NORTH",
+    "named": true
+  },
+  {
+    "type": "NOT",
+    "named": true
+  },
+  {
+    "type": "NULL",
+    "named": true
+  },
+  {
+    "type": "NUMBER",
+    "named": true
+  },
+  {
+    "type": "NUMBER_WITH_G_SUFFIX",
+    "named": true
+  },
+  {
+    "type": "ONE",
+    "named": true
+  },
+  {
+    "type": "OR",
+    "named": true
+  },
+  {
+    "type": "OUTPUT",
+    "named": true
+  },
+  {
+    "type": "OVERALL",
+    "named": true
+  },
+  {
+    "type": "PLUS",
+    "named": true
+  },
+  {
+    "type": "PULSE",
+    "named": true
+  },
+  {
+    "type": "REDSTONE",
+    "named": true
+  },
+  {
+    "type": "RETAIN",
+    "named": true
+  },
+  {
+    "type": "RIGHT",
+    "named": true
+  },
+  {
+    "type": "ROBIN",
+    "named": true
+  },
+  {
+    "type": "ROUND",
+    "named": true
+  },
+  {
+    "type": "RPAREN",
+    "named": true
+  },
+  {
+    "type": "SECOND",
+    "named": true
+  },
+  {
+    "type": "SECONDS",
+    "named": true
+  },
+  {
+    "type": "SIDE",
+    "named": true
+  },
+  {
+    "type": "SLASH",
+    "named": true
+  },
+  {
+    "type": "SLOT",
+    "named": true
+  },
+  {
+    "type": "SLOTS",
+    "named": true
+  },
+  {
+    "type": "SOME",
+    "named": true
+  },
+  {
+    "type": "SOUTH",
+    "named": true
+  },
+  {
+    "type": "STRING",
+    "named": true
+  },
+  {
+    "type": "TAG",
+    "named": true
+  },
+  {
+    "type": "THEN",
+    "named": true
+  },
+  {
+    "type": "TICK",
+    "named": true
+  },
+  {
+    "type": "TICKS",
+    "named": true
+  },
+  {
+    "type": "TO",
+    "named": true
+  },
+  {
+    "type": "TOP",
+    "named": true
+  },
+  {
+    "type": "TRUE",
+    "named": true
+  },
+  {
+    "type": "WEST",
+    "named": true
+  },
+  {
+    "type": "WITH",
+    "named": true
+  },
+  {
+    "type": "WITHOUT",
+    "named": true
+  }
+]
